@@ -1,0 +1,47 @@
+.slider{
+    height: 700px;
+    width: 1200px;
+    background-color: black;
+}
+.main{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    background-image: url(../rabia/images/image-1.jpg);
+    animation-name: main;
+    animation-duration: 10s;
+    position: relative;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+
+@keyframes main{
+
+    0%{background-color: blueviolet;left: 0px; top:0px;}
+    25%{background-color: rgb(156, 36, 36);left: 300px; top:0px;}
+    50%{background-color: rgb(71, 105, 80);left: 300px; top:200px;}
+    75%{background-color: rgb(168, 158, 64);left: 0px; top:200px;}
+    100%{background-color: rgb(226, 103, 32);left: 0px; top:0px;}
+}
+
+.main-2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(192, 60, 133);
+    float: right;
+    
+    animation-name: main-2;
+    animation-duration: 10s;
+    position: relative;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    
+}
+
+@keyframes main-2{
+    0%{background-color: rgb(145, 131, 158);right: 0px; top:0px;}
+    25%{background-color: rgb(156, 36, 36);right:300px; top:0px;}
+    50%{background-color: rgb(71, 105, 80);right: 300px; top:200px;}
+    75%{background-color: rgb(168, 158, 64);right: 0px; top:200px;}
+    100%{background-color: rgb(226, 103, 32);right: 0px; top:0px;}
+}
